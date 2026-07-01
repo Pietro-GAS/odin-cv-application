@@ -1,12 +1,12 @@
 form, 
 .fields,
-.fields div {
+form div {
     display: flex;
     flex-direction: column;
 }
 
 form {
-    gap: 20px;
+    gap: 10px;
 }
 
 .fields {
