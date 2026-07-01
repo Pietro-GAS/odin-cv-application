@@ -1,0 +1,18 @@
+form, 
+.fields,
+.fields div {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    gap: 20px;
+}
+
+.fields {
+    gap:5px;
+}
+
+button {
+    align-self: flex-end;
+}
