@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 30rem;
+    border: 1px solid #193458;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    background-color: #23497B;
+}
+
+label, 
+h3 {
+    color: #DCE7F5;
+}
+
+.edit-form,
+.view-form, 
+.fields,
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    gap: 10px;
+}
+
+.fields {
+    gap:5px;
+}
+
+button {
+    align-self: flex-end;
+    min-width: 5rem;
+}
+
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+}
+
+input {
+    margin: 0px;
+    min-height: 1.4rem;
+    line-height: 1.4rem;
+}
+
+input:disabled,
+textarea:disabled {
+    color: black;
+    background-color: #DCE7F5;
+}
+
+
+input:disabled {
+    border: 2px solid transparent;
+}
+
+textarea:disabled {
+    border: 1px solid transparent;
+}
+
+input[type=date] {
+    width: 8rem;
+}
+
+textarea {
+    height: 5rem;
+}
+
+/*
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width: 25rem;
+}*/
